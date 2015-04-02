@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<form action="/count-letters" method="POST">
+{% csrf_token %}
+Enter Word:<br>
+<input type="text" name="word" value="">
+<br><br>
+<input type="submit" value="Submit">
+</form> 
+</body>
+</html>
